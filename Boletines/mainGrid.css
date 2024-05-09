@@ -1,0 +1,45 @@
+.grid {
+    display: grid;
+    grid-template-areas:
+      "nav header header header"
+      "nav section1 section1 aside"
+      "nav section2 section2 aside"
+      "nav footer footer footer";
+    grid-template-rows: 10% 32% 32% 10%; 
+    grid-template-columns: 15% 32% 32% 15%;
+  
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .border {
+    border: 1px solid black;
+    background-color: yellow;
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  footer {
+    grid-area: footer;
+  }
+  
+  #section1 {
+    grid-area: section1;
+  }
+  
+  #section2 {
+    grid-area: section2;
+  }
+  
+  nav {
+    grid-area: nav;
+  }
+  
+  aside {
+    grid-area: aside;
+  }

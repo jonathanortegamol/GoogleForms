@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    padding: 1em;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+}
+
+article,nav,aside,header,footer {
+    padding: 1em;
+    margin: 1em;
+}
+
+header,footer{
+    background-color: rgb(21, 215, 150);
+}
+
+header{
+    height: 60px;
+}
+
+nav{
+    background-color: pink;
+    width: 25%;
+}
+
+aside{
+    background-color: yellow;
+    width: 25%;
+}
+
+article{
+    background-color: rgb(0, 128, 247);
+    width: 50%;
+}
